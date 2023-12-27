@@ -8,28 +8,28 @@ global.mongodb = process.env.MONGODB_URI || "mongodb+srv://mohsin:mohsin@cluster
 global.port= process.env.PORT || 5000
 global.email = 'infiniteytff@gmail.com'
 global.github = 'https://github.com/chhaseeb47/HASI-MD'
-global.location = 'Pakistan'
+global.location = 'South Africa'
 global.gurl = 'https://instagram.com/_' // add your username
-global.sudo = process.env.SUDO || '923407472645'
-global.devs = '923407472645';
+global.sudo = process.env.SUDO || '27767494368'
+global.devs = '27767494368';
 global.website = 'https://github.com/chhaseeb47/HASI-MD' // Hello world
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/ea5cfd778d2004c72d965.jpg'
 module.exports = {
   botname:   process.env.BOT_NAME === undefined ? 'HASI-MD' : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? '𝗖𝗛 𝗛𝗔𝗦𝗘𝗘𝗕' : process.env.OWNER_NAME,
+  ownername: process.env.OWNER_NAME === undefined ? '•Madeby•Ave' : process.env.OWNER_NAME,
   sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID,
   author:  process.env.PACK_AUTHER.split(";")[0] === undefined ? '𝗖𝗛 𝗛𝗔𝗦𝗘𝗘𝗕' : process.env.PACK_AUTHER.split(";")[0],
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
   packname:  process.env.PACK_NAME.split(";")[1] === undefined ? 'HASI-MD' : process.env.PACK_NAME.split(";")[1],
   autoreaction:  process.env.AUTO_REACTION  === undefined ? false : process.env.AUTO_REACTION ,
-  antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'nigga' : process.env.ANTI_BAD_WORD,
+  antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'null' : process.env.ANTI_BAD_WORD,
   alwaysonline:  process.env.ALWAYS_ONLINE === undefined ? false : process.env.ALWAYS_ONLINE,
   antifake : process.env.FAKE_COUNTRY_CODE === undefined ? '212' : process.env.FAKE_COUNTRY_CODE,
   readmessage:  process.env.READ_MESSAGE === undefined ? false : process.env.READ_MESSAGE,
   auto_status_saver: process.env.AUTO_STATUS_SAVER === undefined ? false : process.env.AUTO_STATUS_SAVER,
   HANDLERS:  process.env.PREFIX === undefined ? ['.'] : process.env.PREFIX,
   warncount : process.env.WARN_COUNT === undefined ? 3 : process.env.WARN_COUNT,
-  disablepm:  process.env.DISABLE_PM === undefined ? false : process.env.DISABLE_PM,
+  disablepm:  process.env.DISABLE_PM === undefined ? true : process.env.DISABLE_PM,
   levelupmessage:  process.env.LEVEL_UP_MESSAGE === undefined ? false : process.env.LEVEL_UP_MESSAGE,
   antilink:  process.env.ANTILINK_VALUES === undefined ? 'chat.whatsapp.com' : process.env.ANTILINK_VALUES,
   antilinkaction: process.env.ANTILINK_ACTION === undefined ? 'remove' : process.env.ANTILINK_ACTION,
